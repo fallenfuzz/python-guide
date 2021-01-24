@@ -7,7 +7,7 @@ Installing Python 3 on Linux
 
 .. image:: /_static/photos/34435689480_2e6f358510_k_d.jpg
 
-This document describes how to install Python 3.6 on Ubuntu Linux machines.
+This document describes how to install Python 3.6 or 3.8 on Ubuntu Linux machines.
 
 To see which version of Python 3 you have installed, open a command prompt and run
 
@@ -20,12 +20,12 @@ If you are using Ubuntu 16.10 or newer, then you can easily install Python 3.6 w
     $ sudo apt-get update
     $ sudo apt-get install python3.6
 
-If you're using another version of Ubuntu (e.g. the latest LTS release), we recommend using the `deadsnakes PPA <https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa>`_ to install Python 3.6::
+If you're using another version of Ubuntu (e.g. the latest LTS release) or you want to use a more current Python, we recommend using the `deadsnakes PPA <https://launchpad.net/~deadsnakes/+archive/ubuntu/ppa>`_ to install Python 3.8::
 
     $ sudo apt-get install software-properties-common
     $ sudo add-apt-repository ppa:deadsnakes/ppa
     $ sudo apt-get update
-    $ sudo apt-get install python3.6
+    $ sudo apt-get install python3.8
 
 If you are using other Linux distribution, chances are you already have Python 3
 pre-installed as well. If not, use your distribution's package manager.
@@ -37,8 +37,8 @@ For example on Fedora, you would use `dnf`:
 
 Note that if the version of the ``python3`` package is not recent enough
 for you, there may be ways of installing more recent versions as well,
-depending on you distribution. For example installing the ``python36`` package
-on Fedora 25 to get Python 3.6. If you are a Fedora user, you might want
+depending on you distribution. For example installing the ``python3.9`` package
+on Fedora 32 to get Python 3.9. If you are a Fedora user, you might want
 to read about `multiple Python versions available in Fedora`_.
 
 .. _multiple Python versions available in Fedora: https://developer.fedoraproject.org/tech/languages/python/multiple-pythons.html
@@ -54,13 +54,13 @@ At this point, you may have system Python 2.7 available as well.
 
     $ python
 
-This will launch the Python 2 interpreter.
+This might launch the Python 2 interpreter.
 
 .. code-block:: console
 
     $ python3
 
-This will launch the Python 3 interpreter.
+This will always launch the Python 3 interpreter.
 
 
 ****************

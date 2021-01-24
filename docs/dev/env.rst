@@ -138,6 +138,14 @@ Recommended for Python development is
 `Linter <https://github.com/steelbrain/linter>`_ combined with
 `linter-flake8 <https://github.com/AtomLinter/linter-flake8>`_.
 
+Python (on Visual Studio Code)
+------------------------------
+
+`Python for Visual Studio <https://marketplace.visualstudio.com/items?itemName=ms-python.python>`_ is an extension for the `Visual Studio Code <https://code.visualstudio.com>`_.
+This is a free, lightweight, open source code editor, with support for Mac, Windows, and Linux.
+Built using open source technologies such as Node.js and Python, with compelling features such as Intellisense (autocompletion), local and remote debugging, linting, and the like.
+
+MIT licensed.
 
 IDEs
 ::::
@@ -152,14 +160,6 @@ features can be brought to IntelliJ with the free
 versions of PyCharm: Professional Edition (Free 30-day trial) and Community
 Edition (Apache 2.0 License) with fewer features.
 
-Python (on Visual Studio Code)
-------------------------------
-
-`Python for Visual Studio <https://marketplace.visualstudio.com/items?itemName=ms-python.python>`_ is an extension for the `Visual Studio Code IDE <https://code.visualstudio.com>`_.
-This is a free, lightweight, open source IDE, with support for Mac, Windows, and Linux.
-Built using open source technologies such as Node.js and Python, with compelling features such as Intellisense (autocompletion), local and remote debugging, linting, and the like.
-
-MIT licensed.
 
 Enthought Canopy
 ----------------
@@ -230,6 +230,18 @@ integrated debugger, and a flexible plug-in system. Written in Python, it is
 based on the Qt GUI toolkit, integrating the Scintilla editor control. Eric
 is an open source software project (GPLv3 licence) with more than ten years of
 active development.
+
+Mu
+--
+
+`Mu <https://codewith.mu/>`_ is a minimalist Python IDE which can run Python 3 code
+locally and can also deploy code to the BBC micro:bit and to Adafruit boards running
+CircuitPython.
+
+Intended for beginners, mu includes a Python 3 interpreter, and is easy to install
+on Windows, OS/X and Linux. It runs well on the Raspberry Pi.
+
+There's an active support community on gitter.
 
 
 Interpreter Tools
